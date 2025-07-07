@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  background: #f7f7f7;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}

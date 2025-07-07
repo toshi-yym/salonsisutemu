@@ -1,0 +1,35 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  max-width: 400px;
+  width: 100%;
+}
+.customer-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+.customer-form input,
+.customer-form textarea,
+.customer-form select {
+  padding: 0.4rem;
+  font-size: 0.9rem;
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}

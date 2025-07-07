@@ -1,0 +1,26 @@
+.customers-page {
+  background: #fff;
+  padding: 1rem;
+}
+
+.search-bar {
+  margin-bottom: 1rem;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.customers-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customers-table th,
+.customers-table td {
+  padding: 0.5rem;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}

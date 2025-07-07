@@ -1,0 +1,29 @@
+.customer-page {
+  padding: 1rem;
+}
+.customer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.left, .right {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 4px;
+}
+.left label, .right label {
+  display: block;
+}
+.field-pair {
+  display: flex;
+  gap: 0.5rem;
+}
+.field-row {
+  margin: 0.5rem 0;
+}
+.actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
